@@ -2,7 +2,7 @@ name: EasyGamemode
 version: 1.0.1
 api: 4.0.0
 author: GamilinoMC
-main: Plugin/Main
+main: Plugin/Main.php
 
 commands:
    test:
