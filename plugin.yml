@@ -5,11 +5,11 @@ author: GamilinoMC
 main: Plugin/Main
 
 commands:
-   gm1:
-     description: Gamemode 1
+   test:
+     description: test
      permission: test.cmd
 
 permissions:
   test.cmd:
     default: op
-    description: GM1 befehl
+    description: test befehl
