@@ -8,3 +8,8 @@ commands:
    gm1:
      description: Gamemode 1
      permission: test.cmd
+
+permissions:
+  test.cmd:
+    default: op
+    description: GM1 befehl
