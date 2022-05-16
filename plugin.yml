@@ -7,4 +7,4 @@ main: Plugin/Main
 commands:
    gm1:
      description: Gamemode 1
-     permission: op
+     permission: test.cmd
