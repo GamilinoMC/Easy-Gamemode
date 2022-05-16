@@ -5,6 +5,6 @@ author: GamilinoMC
 main: Plugin/Main
 
 commands:
-   test:
-     description: Ein Plugin zum Testen!
-     permission:
+   gm1:
+     description: Gamemode 1
+     permission: op
