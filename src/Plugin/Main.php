@@ -12,7 +12,6 @@ class Main extends PluginBase{
         if($cmd->getName() === "test"){
             if($sender->hasPermission("test.cmd")){
                 $sender->sendMessage("§bPingu§cGames§r: §cDu hast keine berechtigungen dafür!");
-                $sender->sendPopup("§aTest erfolgreich");
             }
         }
     return true;   
