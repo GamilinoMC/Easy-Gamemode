@@ -9,7 +9,7 @@ use pocketmine\plugin\PluginBase;
 class Main extends PluginBase{
 
     public function onCommand(CommandSender $sender, Command $cmd, string $lable, array $args): bool{
-        if($cmd->getName() --- "gm1"){
+        if($cmd->getName() --- "test"){
             if($sender->hasPermission("test.cmd")){
                 $sender->sendMessage("§bPingu§cGames§r: §cDu hast keine berechtigungen dafür!");
                 $sender->sendPopup("§aTest erfolgreich");
