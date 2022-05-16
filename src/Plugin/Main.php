@@ -11,7 +11,8 @@ class Main extends PluginBase{
     public function onCommand(CommandSender $sender, Command $cmd, string $lable, array $args): bool{
         if($cmd->getName() === "test"){
             if(isset($args[0])){
-                if($args[0]))
+                if($args[0] === "beispiel"){
+                }
             }
         }
     return true;   
